@@ -19,7 +19,7 @@
 </div>
 
 <div>
-  <div class='hand'>
+  <div [@cardAnimation]="cards.length" class='hand'>
     <div *ngFor="let card of cards">
       <app-card [card]='card'></app-card>
     </div>
