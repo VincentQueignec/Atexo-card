@@ -48,4 +48,4 @@ The sorting algo is front sided for mainly 2 reasons: <br/>
 
 ## Screenshot
 
-![alt text](https://github.com/VincentQueignec/Atexo-card/master/Capture-atexo.PNG?raw=true)
+![screeshot](https://github.com/VincentQueignec/Atexo-card/blob/master/Capture-atexo.PNG?raw=true)
