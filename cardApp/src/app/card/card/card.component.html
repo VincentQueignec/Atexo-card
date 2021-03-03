@@ -1,0 +1,7 @@
+<div class="card">
+  <div [ngClass]='card.color.toString()' class="logo top-left"></div>
+  <div [ngClass]='card.color.toString() == "CLUB" || card.color.toString() == "SPADE" ? "black" : "red"'
+       class="card-value">{{renderValue()}}</div>
+  <div [ngClass]='card.color.toString()' class="logo bottom-right"></div>
+</div>
+

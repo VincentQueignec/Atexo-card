@@ -1,0 +1,27 @@
+<div>
+  <p> Ordre aléatoire des couleurs choisi (ordre croissant) :</p>
+  <div class="color-order">
+    <div *ngFor="let color of colorOrder">
+      <div [ngClass]="color" class="color"></div>
+    </div>
+  </div>
+</div>
+<div>
+  <p> Ordre aléatoire des valeurs choisi (ordre croissant) :</p>
+  <div class="value-order">
+    <div *ngFor="let value of valueOrder">
+      <div class="value">{{renderValue(value)}}</div>
+    </div>
+  </div>
+</div>
+<div>
+  <button (click)="sort()"> Trier les cartes</button>
+</div>
+
+<div>
+  <div class='hand'>
+    <div *ngFor="let card of cards">
+      <app-card [card]='card'></app-card>
+    </div>
+  </div>
+</div>
