@@ -49,6 +49,12 @@ public class Card {
         return Objects.hash(value, color);
     }
 
+    @Override
+    public String toString() {
+        return "{" + value +
+                ", " + color +
+                '}';
+    }
 
     interface ICardBuilderValue {
         ICardBuilderColor withValue(ValueEnum val);
