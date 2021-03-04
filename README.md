@@ -36,7 +36,7 @@ Backend (unit and integration tests)
 mvm test
 ```
 
-Frontend (must have backend launch for the sake of Integration tests)
+Frontend
 ```shell
 ng test
 ```
